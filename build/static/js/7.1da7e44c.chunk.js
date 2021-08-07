@@ -4,22 +4,22 @@
   {
     137: function (t, e, n) {
       t.exports = {
-        nav: 'Header_nav__37t1d',
-        logo: 'Header_logo__1V_o-',
-        link: 'Header_link__269xy',
-        active: 'Header_active__3MHke',
-        authLink: 'Header_authLink__2v2Nu',
-        linkActive: 'Header_linkActive__2idf2',
-        userInfo: 'Header_userInfo__wJvAC',
-        userLogin: 'Header_userLogin__22n3f',
-        exitButton: 'Header_exitButton__2v4XM',
-        userInfoNav: 'Header_userInfoNav__V0Q9q',
-        linkBurger: 'Header_linkBurger__3Z5pc',
-        listBurger: 'Header_listBurger__3CEXm',
-        listBurgerItem: 'Header_listBurgerItem__rH0ms',
-        menuButton: 'Header_menuButton__177Te',
-        closeButton: 'Header_closeButton__2YVK3',
-        BigLogo: 'Header_BigLogo__3ApKw',
+        nav: 'Header_nav__3M1Rb',
+        logo: 'Header_logo__2xlgc',
+        link: 'Header_link__aHHl0',
+        active: 'Header_active__1ozZu',
+        authLink: 'Header_authLink__2wpg4',
+        linkActive: 'Header_linkActive__2OzAv',
+        userInfo: 'Header_userInfo__p6LZY',
+        userLogin: 'Header_userLogin__3ObG3',
+        exitButton: 'Header_exitButton__fcLeT',
+        userInfoNav: 'Header_userInfoNav__3SgC9',
+        linkBurger: 'Header_linkBurger__2DgGQ',
+        listBurger: 'Header_listBurger__h3jAf',
+        listBurgerItem: 'Header_listBurgerItem__3SzXQ',
+        menuButton: 'Header_menuButton__3ukyz',
+        closeButton: 'Header_closeButton__3jdCb',
+        BigLogo: 'Header_BigLogo__ky-5x',
       }
     },
     139: function (t, e, n) {
@@ -201,7 +201,7 @@
     157: function (t, e, n) {
       'use strict'
       n.d(e, 'a', function () {
-        return x
+        return v
       })
       var c = n(135),
         r = n(0),
@@ -215,7 +215,7 @@
         b = n(172),
         j = n.n(b),
         f = n(2),
-        m = (function (t) {
+        p = (function (t) {
           Object(l.a)(n, t)
           var e = Object(d.a)(n)
           function n() {
@@ -271,14 +271,14 @@
             n
           )
         })(r.Component),
-        p = n(21),
-        _ = n(28),
+        _ = n(21),
+        m = n(28),
         O = n(152),
         h = n(138),
-        v = function (t) {
+        x = function (t) {
           var e = t.isModalOpen,
             n = t.setModalState,
-            c = Object(p.c)(_.a),
+            c = Object(_.c)(m.a),
             r = Object(h.a)()
           return Object(f.jsxs)(f.Fragment, {
             children: [
@@ -382,7 +382,7 @@
             ],
           })
         },
-        x = function () {
+        v = function () {
           var t = Object(h.a)(),
             e = Object(r.useState)(!1),
             n = Object(c.a)(e, 2),
@@ -396,9 +396,9 @@
             l = o.isModalOpen
           return Object(f.jsxs)(f.Fragment, {
             children: [
-              Object(f.jsx)(v, { isModalOpen: l, setModalState: u }),
+              Object(f.jsx)(x, { isModalOpen: l, setModalState: u }),
               l && t < 1280
-                ? Object(f.jsx)(m, {
+                ? Object(f.jsx)(p, {
                     children: Object(f.jsxs)('div', {
                       className: i.a.listBurger,
                       children: [
@@ -547,17 +547,17 @@
         }
     },
     168: function (t, e, n) {
-      t.exports = { list: 's_list__tvsZJ', ul: 's_ul__1ENI9' }
+      t.exports = { list: 's_list__3n1gn', ul: 's_ul__154Ra' }
     },
     169: function (t, e, n) {
       t.exports = {
-        section: 'RightSideBar_section__1pBMK',
-        container: 'RightSideBar_container__38oUL',
-        box: 'RightSideBar_box__37LsA',
-        title: 'RightSideBar_title__3oG-v',
-        list: 'RightSideBar_list__2vJnC',
-        ul: 'RightSideBar_ul__3OVm-',
-        text: 'RightSideBar_text__3M2sP',
+        section: 'RightSideBar_section__2sVRH',
+        container: 'RightSideBar_container__1dBgO',
+        box: 'RightSideBar_box__2Zr8N',
+        title: 'RightSideBar_title__JtpEJ',
+        list: 'RightSideBar_list__1Tvx9',
+        ul: 'RightSideBar_ul__1eoei',
+        text: 'RightSideBar_text__2Sawo',
       }
     },
     170: function (t, e, n) {
@@ -590,8 +590,8 @@
     },
     172: function (t, e, n) {
       t.exports = {
-        Overlay: 'BurgerMenu_Overlay__qZr6j',
-        Modal: 'BurgerMenu_Modal__3yTSX',
+        Overlay: 'BurgerMenu_Overlay__f37VX',
+        Modal: 'BurgerMenu_Modal__2aFT8',
       }
     },
     173: function (t, e, n) {
@@ -749,12 +749,12 @@
           d = o[1],
           j = Object(r.useState)(0),
           f = Object(c.a)(j, 2),
-          m = f[0],
-          p = f[1]
+          p = f[0],
+          _ = f[1]
         return (
           Object(r.useEffect)(
             function () {
-              t && p(t)
+              t && _(t)
             },
             [t],
           ),
@@ -777,11 +777,11 @@
                         className: b.a.title,
                         children: [
                           '\u0421\u0432\u043e\u0434\u043a\u0430 \u0437\u0430 \u0434\u0430\u0442\u0443 ',
-                          m.date,
+                          p.date,
                           ' ',
                         ],
                       }),
-                      Object(s.jsx)(u, { info: m }),
+                      Object(s.jsx)(u, { info: p }),
                     ],
                   }),
                   Object(s.jsxs)('div', {
@@ -873,21 +873,21 @@
     },
     216: function (t, e, n) {
       t.exports = {
-        product_Item: 'DiaryProductListItem_product_Item__2Xq47',
-        product_name: 'DiaryProductListItem_product_name__2EclK',
+        product_Item: 'DiaryProductListItem_product_Item__2kx-n',
+        product_name: 'DiaryProductListItem_product_name__2_hF-',
         product_weight:
-          'DiaryProductListItem_product_weight__2VlPj DiaryProductListItem_product_name__2EclK',
+          'DiaryProductListItem_product_weight__t4MK5 DiaryProductListItem_product_name__2_hF-',
         product_kCal:
-          'DiaryProductListItem_product_kCal__17R0c DiaryProductListItem_product_name__2EclK DiaryProductListItem_product_weight__2VlPj DiaryProductListItem_product_name__2EclK',
-        product_button: 'DiaryProductListItem_product_button__1XrKf',
-        product_button_dis: 'DiaryProductListItem_product_button_dis__3EzLZ',
+          'DiaryProductListItem_product_kCal__2gU1Z DiaryProductListItem_product_name__2_hF- DiaryProductListItem_product_weight__t4MK5 DiaryProductListItem_product_name__2_hF-',
+        product_button: 'DiaryProductListItem_product_button__18vqK',
+        product_button_dis: 'DiaryProductListItem_product_button_dis__1RFyl',
       }
     },
     217: function (t, e, n) {
       t.exports = {
-        container: 'DiaryProductsList_container__38lXj',
-        list: 'DiaryProductsList_list__2YUND',
-        mobilButton: 'DiaryProductsList_mobilButton__1JNKR',
+        container: 'DiaryProductsList_container__2bdUw',
+        list: 'DiaryProductsList_list__3a8wO',
+        mobilButton: 'DiaryProductsList_mobilButton__3TPh4',
       }
     },
     218: function (t, e, n) {
@@ -910,7 +910,7 @@
           var e = typeof t
           return !!t && ('object' == e || 'function' == e)
         }
-        function m(t) {
+        function p(t) {
           if ('number' == typeof t) return t
           if (
             (function (t) {
@@ -946,8 +946,8 @@
             s,
             u = 0,
             l = !1,
-            p = !1,
-            _ = !0
+            _ = !1,
+            m = !0
           if ('function' != typeof t) throw new TypeError('Expected a function')
           function O(e) {
             var n = c,
@@ -955,41 +955,41 @@
             return (c = r = void 0), (u = e), (o = t.apply(a, n))
           }
           function h(t) {
-            return (u = t), (i = setTimeout(x, e)), l ? O(t) : o
+            return (u = t), (i = setTimeout(v, e)), l ? O(t) : o
           }
-          function v(t) {
+          function x(t) {
             var n = t - s
-            return void 0 === s || n >= e || n < 0 || (p && t - u >= a)
+            return void 0 === s || n >= e || n < 0 || (_ && t - u >= a)
           }
-          function x() {
+          function v() {
             var t = j()
-            if (v(t)) return g(t)
+            if (x(t)) return g(t)
             i = setTimeout(
-              x,
+              v,
               (function (t) {
                 var n = e - (t - s)
-                return p ? b(n, a - (t - u)) : n
+                return _ ? b(n, a - (t - u)) : n
               })(t),
             )
           }
           function g(t) {
-            return (i = void 0), _ && c ? O(t) : ((c = r = void 0), o)
+            return (i = void 0), m && c ? O(t) : ((c = r = void 0), o)
           }
           function y() {
             var t = j(),
-              n = v(t)
+              n = x(t)
             if (((c = arguments), (r = this), (s = t), n)) {
               if (void 0 === i) return h(s)
-              if (p) return (i = setTimeout(x, e)), O(s)
+              if (_) return (i = setTimeout(v, e)), O(s)
             }
-            return void 0 === i && (i = setTimeout(x, e)), o
+            return void 0 === i && (i = setTimeout(v, e)), o
           }
           return (
-            (e = m(e) || 0),
+            (e = p(e) || 0),
             f(n) &&
               ((l = !!n.leading),
-              (a = (p = 'maxWait' in n) ? d(m(n.maxWait) || 0, e) : a),
-              (_ = 'trailing' in n ? !!n.trailing : _)),
+              (a = (_ = 'maxWait' in n) ? d(p(n.maxWait) || 0, e) : a),
+              (m = 'trailing' in n ? !!n.trailing : m)),
             (y.cancel = function () {
               void 0 !== i && clearTimeout(i), (u = 0), (c = s = r = i = void 0)
             }),
@@ -1003,45 +1003,45 @@
     },
     219: function (t, e, n) {
       t.exports = {
-        form: 'DiaryAddProductForm_form__25OjW',
-        form_Mobile: 'DiaryAddProductForm_form_Mobile__I1D_b',
-        input: 'DiaryAddProductForm_input__1mPTR',
-        btn: 'DiaryAddProductForm_btn__1S0Jl',
-        btn_Add: 'DiaryAddProductForm_btn_Add__FtTq_',
+        form: 'DiaryAddProductForm_form__q3U4n',
+        form_Mobile: 'DiaryAddProductForm_form_Mobile__2eInO',
+        input: 'DiaryAddProductForm_input__1OLkf',
+        btn: 'DiaryAddProductForm_btn__1QgrY',
+        btn_Add: 'DiaryAddProductForm_btn_Add__9T-Q0',
       }
     },
     220: function (t, e, n) {
       t.exports = {
-        btn: 'ModalDiaryAddProductForm_btn__obLAG',
+        btn: 'ModalDiaryAddProductForm_btn__Mqi3A',
         btn_dis:
-          'ModalDiaryAddProductForm_btn_dis__3W3wZ ModalDiaryAddProductForm_btn__obLAG',
+          'ModalDiaryAddProductForm_btn_dis__1B8vU ModalDiaryAddProductForm_btn__Mqi3A',
       }
     },
     221: function (t, e, n) {
       t.exports = {
-        open: 'Modal_open__kvznN',
-        close: 'Modal_close__3roS-',
-        overlay: 'Modal_overlay__k7xwl',
-        modal: 'Modal_modal__1ZoAj',
-        closeButton: 'Modal_closeButton__1moL_',
-        arrowCloseButton: 'Modal_arrowCloseButton__2qnVk',
+        open: 'Modal_open__Byu-L',
+        close: 'Modal_close__1LSPN',
+        overlay: 'Modal_overlay__192SR',
+        modal: 'Modal_modal__3QMLK',
+        closeButton: 'Modal_closeButton__kvqwt',
+        arrowCloseButton: 'Modal_arrowCloseButton__23wJL',
       }
     },
     222: function (t, e, n) {
       t.exports = {
-        container: 'DiaryPage_container__3Kb59',
-        containerError: 'DiaryPage_containerError__LaxhP',
-        container_page: 'DiaryPage_container_page__108dH',
-        container_list: 'DiaryPage_container_list__3m-p9',
+        container: 'DiaryPage_container__3TI0f',
+        containerError: 'DiaryPage_containerError__3vXTg',
+        container_page: 'DiaryPage_container_page__1MAJw',
+        container_list: 'DiaryPage_container_list__2oec6',
       }
     },
     223: function (t, e, n) {
       t.exports = {
-        wrapper: 'styless_wrapper__2l2sL',
-        section: 'styless_section__1raW8',
-        box: 'styless_box__3LSnZ',
-        header: 'styless_header__3z0mD',
-        headerBox: 'styless_headerBox__2j1TX',
+        wrapper: 'styless_wrapper__3kwH5',
+        section: 'styless_section__27HDm',
+        box: 'styless_box__10X-0',
+        header: 'styless_header__azVDj',
+        headerBox: 'styless_headerBox__2gUlO',
       }
     },
     249: function (t, e, n) {
@@ -1059,9 +1059,9 @@
         b = n(135),
         j = n(139),
         f = n(141),
-        m = n(216),
-        p = n.n(m),
-        _ = n(2)
+        p = n(216),
+        _ = n.n(p),
+        m = n(2)
       function O(t) {
         var e = t.title,
           n = t.weight,
@@ -1071,20 +1071,20 @@
           o = c,
           i = Object(u.c)(j.b),
           s = new Date().toLocaleDateString('fr-CA')
-        return Object(_.jsxs)('li', {
-          className: p.a.product_Item,
+        return Object(m.jsxs)('li', {
+          className: _.a.product_Item,
           children: [
-            Object(_.jsx)('span', { className: p.a.product_name, children: e }),
-            Object(_.jsxs)('span', {
-              className: p.a.product_weight,
+            Object(m.jsx)('span', { className: _.a.product_name, children: e }),
+            Object(m.jsxs)('span', {
+              className: _.a.product_weight,
               children: [n, ' \u0433'],
             }),
-            Object(_.jsxs)('span', {
-              className: p.a.product_kCal,
+            Object(m.jsxs)('span', {
+              className: _.a.product_kCal,
               children: [o, ' \u043a\u043a\u0430\u043b'],
             }),
-            Object(_.jsx)('button', {
-              className: s === i ? p.a.product_button : p.a.product_button_dis,
+            Object(m.jsx)('button', {
+              className: s === i ? _.a.product_button : _.a.product_button_dis,
               type: 'button',
               onClick: function () {
                 return a(Object(f.c)(r)), void a(Object(f.b)(s))
@@ -1094,8 +1094,8 @@
         })
       }
       var h = n(217),
-        v = n.n(h),
-        x = ['id']
+        x = n.n(h),
+        v = ['id']
       function g() {
         var t = Object(u.c)(j.a),
           e = Object(i.useState)([]),
@@ -1109,17 +1109,17 @@
             },
             [t],
           ),
-          Object(_.jsx)(_.Fragment, {
-            children: Object(_.jsx)('div', {
-              className: v.a.container,
+          Object(m.jsx)(m.Fragment, {
+            children: Object(m.jsx)('div', {
+              className: x.a.container,
               children:
                 (null === c || void 0 === c ? void 0 : c.length) > 0
-                  ? Object(_.jsx)('ul', {
-                      className: v.a.list,
+                  ? Object(m.jsx)('ul', {
+                      className: x.a.list,
                       children: c.map(function (t) {
                         var e = t.id,
-                          n = Object(d.a)(t, x)
-                        return Object(_.jsx)(O, Object(l.a)({ id: e }, n), e)
+                          n = Object(d.a)(t, v)
+                        return Object(m.jsx)(O, Object(l.a)({ id: e }, n), e)
                       }),
                     })
                   : null,
@@ -1131,7 +1131,7 @@
         N = n(117),
         k = n(248),
         w = n(53),
-        S = Object(N.a)(function (t) {
+        B = Object(N.a)(function (t) {
           var e
           return {
             textField:
@@ -1162,7 +1162,7 @@
             },
           }
         })
-      function B() {
+      function S() {
         var t = Object(i.useState)(new Date().toLocaleDateString('fr-CA')),
           e = Object(b.a)(t, 2),
           n = e[0],
@@ -1175,14 +1175,14 @@
           },
           [n, a],
         )
-        var o = S()
-        return Object(_.jsx)(_.Fragment, {
+        var o = B()
+        return Object(m.jsx)(m.Fragment, {
           children: r
-            ? Object(_.jsx)(w.a, {})
-            : Object(_.jsx)('form', {
+            ? Object(m.jsx)(w.a, {})
+            : Object(m.jsx)('form', {
                 className: o.container,
                 noValidate: !0,
-                children: Object(_.jsx)(k.a, {
+                children: Object(m.jsx)(k.a, {
                   InputProps: { classes: o },
                   id: 'date',
                   type: 'date',
@@ -1203,10 +1203,10 @@
         D = n(218),
         C = n.n(D),
         L = n(219),
-        I = n.n(L),
-        M = n(142)
+        M = n.n(L),
+        I = n(142)
       n(78)
-      function E() {
+      function F() {
         var t = Object(i.useState)(''),
           e = Object(b.a)(t, 2),
           n = e[0],
@@ -1216,13 +1216,13 @@
           o = a[0],
           l = a[1],
           d = Object(i.useState)(''),
-          m = Object(b.a)(d, 2),
-          p = m[0],
-          O = m[1],
+          p = Object(b.a)(d, 2),
+          _ = p[0],
+          O = p[1],
           h = Object(i.useState)([]),
-          v = Object(b.a)(h, 2),
-          x = v[0],
-          g = v[1],
+          x = Object(b.a)(h, 2),
+          v = x[0],
+          g = x[1],
           y = Object(u.b)(),
           N = Object(u.c)(j.b)
         Object(i.useEffect)(
@@ -1249,12 +1249,12 @@
           w = function () {
             c(''), l('')
           },
-          S = Object(s.a)()
-        return Object(_.jsx)(_.Fragment, {
-          children: Object(_.jsxs)('form', {
-            className: S >= 768 ? I.a.form : I.a.form_Mobile,
+          B = Object(s.a)()
+        return Object(m.jsx)(m.Fragment, {
+          children: Object(m.jsxs)('form', {
+            className: B >= 768 ? M.a.form : M.a.form_Mobile,
             onSubmit: function (t) {
-              if ((t.preventDefault(), 0 === x.length)) {
+              if ((t.preventDefault(), 0 === v.length)) {
                 return (
                   c(''),
                   P.b.warn(
@@ -1263,9 +1263,9 @@
                 )
               }
               if (
-                !(null === x || void 0 === x
+                !(null === v || void 0 === v
                   ? void 0
-                  : x.find(function (t) {
+                  : v.find(function (t) {
                       return t.title === n
                     }))
               ) {
@@ -1278,14 +1278,14 @@
               }
               y(Object(f.b)(N)),
                 y(
-                  Object(f.a)({ kcal: Number(p), weight: Number(o), title: n }),
+                  Object(f.a)({ kcal: Number(_), weight: Number(o), title: n }),
                 ),
                 y(Object(f.b)(N)),
                 w()
             },
             children: [
-              Object(_.jsx)('input', {
-                className: I.a.input,
+              Object(m.jsx)('input', {
+                className: M.a.input,
                 list: 'cookies',
                 name: 'product',
                 value: n,
@@ -1295,11 +1295,11 @@
                 autoComplete: 'off',
                 onChange: function (t) {
                   var e = t.target.value
-                  if ((c(e), !x)) return null
+                  if ((c(e), !v)) return null
                   var n =
-                      null === x || void 0 === x
+                      null === v || void 0 === v
                         ? void 0
-                        : x.find(function (t) {
+                        : v.find(function (t) {
                             return t.title === e
                           }),
                     r = null === n || void 0 === n ? void 0 : n.kcal
@@ -1307,17 +1307,17 @@
                 },
                 required: !0,
               }),
-              (null === x || void 0 === x ? void 0 : x.length) > 0 &&
-                Object(_.jsx)('datalist', {
+              (null === v || void 0 === v ? void 0 : v.length) > 0 &&
+                Object(m.jsx)('datalist', {
                   id: 'cookies',
-                  children: x.map(function (t) {
+                  children: v.map(function (t) {
                     var e = t.id,
                       n = t.title
-                    return Object(_.jsx)('option', { value: n, children: n }, e)
+                    return Object(m.jsx)('option', { value: n, children: n }, e)
                   }),
                 }),
-              Object(_.jsx)('input', {
-                className: I.a.input,
+              Object(m.jsx)('input', {
+                className: M.a.input,
                 name: 'weight',
                 value: o,
                 placeholder: '\u0413\u0440\u0430\u043c\u043c\u044b',
@@ -1326,16 +1326,16 @@
                 onChange: k,
                 required: !0,
               }),
-              S >= 768
-                ? Object(_.jsx)('button', {
+              B >= 768
+                ? Object(m.jsx)('button', {
                     type: 'submit',
-                    className: I.a.btn,
+                    className: M.a.btn,
                   })
                 : '',
-              S < 768
-                ? Object(_.jsx)(M.a, {
+              B < 768
+                ? Object(m.jsx)(I.a, {
                     type: 'submit',
-                    className: I.a.btn_Add,
+                    className: M.a.btn_Add,
                     children:
                       '\u0414\u043e\u0431\u0430\u0432\u0438\u0442\u044c',
                   })
@@ -1344,8 +1344,8 @@
           }),
         })
       }
-      var F = n(220),
-        A = n.n(F),
+      var E = n(220),
+        A = n.n(E),
         R = n(221),
         H = n.n(R),
         T = function (t) {
@@ -1370,20 +1370,20 @@
               },
               [n],
             )
-          return Object(_.jsx)(_.Fragment, {
+          return Object(m.jsx)(m.Fragment, {
             children:
               n &&
-              Object(_.jsx)('div', {
+              Object(m.jsx)('div', {
                 className: H.a.overlay,
                 onClick: function (t) {
                   'overlay' === t.target.dataset.name && c()
                 },
                 'data-name': 'overlay',
-                children: Object(_.jsxs)('div', {
+                children: Object(m.jsxs)('div', {
                   className: H.a.modal,
                   'data-name': 'modal',
                   children: [
-                    Object(_.jsx)('button', {
+                    Object(m.jsx)('button', {
                       className:
                         r < 768 ? H.a.arrowCloseButton : H.a.closeButton,
                       type: 'button',
@@ -1405,27 +1405,27 @@
             },
             a = Object(u.c)(j.b),
             o = new Date().toLocaleDateString('fr-CA')
-          return Object(_.jsxs)(_.Fragment, {
+          return Object(m.jsxs)(m.Fragment, {
             children: [
               o === a
-                ? Object(_.jsx)('button', {
+                ? Object(m.jsx)('button', {
                     type: 'button',
                     className: A.a.btn,
                     onClick: r,
                   })
                 : null,
-              Object(_.jsx)(T, {
+              Object(m.jsx)(T, {
                 arrowVisible: !0,
                 toggleModal: r,
                 openModal: n,
-                children: Object(_.jsx)(E, { toggleModal: r }),
+                children: Object(m.jsx)(F, { toggleModal: r }),
               }),
             ],
           })
         },
-        V = n(222),
-        K = n.n(V)
-      function W() {
+        z = n(222),
+        J = n.n(z)
+      function V() {
         var t = Object(u.b)(),
           e = localStorage.getItem('token'),
           n = localStorage.getItem('calcFormParams')
@@ -1435,80 +1435,80 @@
         var c = Object(s.a)(),
           r = Object(u.c)(j.b),
           a = new Date().toLocaleDateString('fr-CA')
-        return Object(_.jsx)(_.Fragment, {
+        return Object(m.jsx)(m.Fragment, {
           children:
             c >= 768
-              ? Object(_.jsxs)('div', {
-                  className: K.a.container_page,
+              ? Object(m.jsxs)('div', {
+                  className: J.a.container_page,
                   children: [
-                    Object(_.jsx)(B, {}),
-                    a === r ? Object(_.jsx)(E, {}) : null,
-                    Object(_.jsx)('div', {
-                      className: K.a.container_list,
-                      children: Object(_.jsx)(g, {}),
+                    Object(m.jsx)(S, {}),
+                    a === r ? Object(m.jsx)(F, {}) : null,
+                    Object(m.jsx)('div', {
+                      className: J.a.container_list,
+                      children: Object(m.jsx)(g, {}),
                     }),
                   ],
                 })
-              : Object(_.jsxs)('div', {
-                  className: K.a.containerError,
+              : Object(m.jsxs)('div', {
+                  className: J.a.containerError,
                   children: [
-                    Object(_.jsx)(B, {}),
-                    Object(_.jsx)('div', { children: Object(_.jsx)(g, {}) }),
-                    c <= 768 ? Object(_.jsx)(q, {}) : Object(_.jsx)(E, {}),
+                    Object(m.jsx)(S, {}),
+                    Object(m.jsx)('div', { children: Object(m.jsx)(g, {}) }),
+                    c <= 768 ? Object(m.jsx)(q, {}) : Object(m.jsx)(F, {}),
                   ],
                 }),
         })
       }
-      var J = n(157),
-        z = n(152),
-        X = n(223),
-        Z = n.n(X),
-        $ = function () {
+      var W = n(157),
+        U = n(152),
+        K = n(223),
+        Q = n.n(K),
+        X = function () {
           var t = Object(s.a)()
-          return Object(_.jsx)(_.Fragment, {
+          return Object(m.jsx)(m.Fragment, {
             children:
               t >= 1280
-                ? Object(_.jsx)('div', {
-                    className: Z.a.wrapper,
-                    children: Object(_.jsxs)('div', {
-                      className: Z.a.section,
+                ? Object(m.jsx)('div', {
+                    className: Q.a.wrapper,
+                    children: Object(m.jsxs)('div', {
+                      className: Q.a.section,
                       children: [
-                        Object(_.jsxs)('div', {
-                          className: Z.a.header,
+                        Object(m.jsxs)('div', {
+                          className: Q.a.header,
                           children: [
-                            Object(_.jsx)(J.a, {}),
-                            Object(_.jsx)('div', {
-                              className: Z.a.headerBox,
-                              children: t >= 1280 ? Object(_.jsx)(z.a, {}) : '',
+                            Object(m.jsx)(W.a, {}),
+                            Object(m.jsx)('div', {
+                              className: Q.a.headerBox,
+                              children: t >= 1280 ? Object(m.jsx)(U.a, {}) : '',
                             }),
                           ],
                         }),
-                        Object(_.jsxs)('div', {
-                          className: Z.a.box,
+                        Object(m.jsxs)('div', {
+                          className: Q.a.box,
                           children: [
-                            Object(_.jsx)('div', {
-                              className: Z.a.case,
-                              children: Object(_.jsx)(W, {}),
+                            Object(m.jsx)('div', {
+                              className: Q.a.case,
+                              children: Object(m.jsx)(V, {}),
                             }),
-                            Object(_.jsx)(a.a, {}),
+                            Object(m.jsx)(a.a, {}),
                           ],
                         }),
                       ],
                     }),
                   })
-                : Object(_.jsxs)('div', {
-                    className: Z.a.box,
+                : Object(m.jsxs)('div', {
+                    className: Q.a.box,
                     children: [
-                      Object(_.jsxs)(r.a, {
+                      Object(m.jsxs)(r.a, {
                         children: [
-                          Object(_.jsx)(J.a, {}),
-                          Object(_.jsx)(W, {}),
+                          Object(m.jsx)(W.a, {}),
+                          Object(m.jsx)(V, {}),
                         ],
                       }),
-                      Object(_.jsxs)(c.a, {
+                      Object(m.jsxs)(c.a, {
                         children: [
-                          t >= 1280 ? Object(_.jsx)(z.a, {}) : '',
-                          Object(_.jsx)(a.a, {}),
+                          t >= 1280 ? Object(m.jsx)(U.a, {}) : '',
+                          Object(m.jsx)(a.a, {}),
                         ],
                       }),
                     ],
@@ -1516,9 +1516,9 @@
           })
         }
       e.default = function () {
-        return Object(_.jsx)($, {})
+        return Object(m.jsx)(X, {})
       }
     },
   },
 ])
-//# sourceMappingURL=7.95f3f092.chunk.js.map
+//# sourceMappingURL=7.1da7e44c.chunk.js.map

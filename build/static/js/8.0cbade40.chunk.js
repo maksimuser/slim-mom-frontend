@@ -4,22 +4,22 @@
   {
     137: function (e, t, a) {
       e.exports = {
-        nav: 'Header_nav__37t1d',
-        logo: 'Header_logo__1V_o-',
-        link: 'Header_link__269xy',
-        active: 'Header_active__3MHke',
-        authLink: 'Header_authLink__2v2Nu',
-        linkActive: 'Header_linkActive__2idf2',
-        userInfo: 'Header_userInfo__wJvAC',
-        userLogin: 'Header_userLogin__22n3f',
-        exitButton: 'Header_exitButton__2v4XM',
-        userInfoNav: 'Header_userInfoNav__V0Q9q',
-        linkBurger: 'Header_linkBurger__3Z5pc',
-        listBurger: 'Header_listBurger__3CEXm',
-        listBurgerItem: 'Header_listBurgerItem__rH0ms',
-        menuButton: 'Header_menuButton__177Te',
-        closeButton: 'Header_closeButton__2YVK3',
-        BigLogo: 'Header_BigLogo__3ApKw',
+        nav: 'Header_nav__3M1Rb',
+        logo: 'Header_logo__2xlgc',
+        link: 'Header_link__aHHl0',
+        active: 'Header_active__1ozZu',
+        authLink: 'Header_authLink__2wpg4',
+        linkActive: 'Header_linkActive__2OzAv',
+        userInfo: 'Header_userInfo__p6LZY',
+        userLogin: 'Header_userLogin__3ObG3',
+        exitButton: 'Header_exitButton__fcLeT',
+        userInfoNav: 'Header_userInfoNav__3SgC9',
+        linkBurger: 'Header_linkBurger__2DgGQ',
+        listBurger: 'Header_listBurger__h3jAf',
+        listBurgerItem: 'Header_listBurgerItem__3SzXQ',
+        menuButton: 'Header_menuButton__3ukyz',
+        closeButton: 'Header_closeButton__3jdCb',
+        BigLogo: 'Header_BigLogo__ky-5x',
       }
     },
     142: function (e, t, a) {
@@ -60,11 +60,11 @@
     },
     160: function (e, t, a) {
       e.exports = {
-        contentContainer: 'ContentImagesRegPage_contentContainer__1SNM4',
-        DecoreLaptop: 'ContentImagesRegPage_DecoreLaptop__3T5-O',
-        Banana: 'ContentImagesRegPage_Banana__3Aqk6',
-        Strawberry: 'ContentImagesRegPage_Strawberry__1E3gS',
-        Green: 'ContentImagesRegPage_Green__Cjzf7',
+        contentContainer: 'ContentImagesRegPage_contentContainer__QnH3O',
+        DecoreLaptop: 'ContentImagesRegPage_DecoreLaptop__53ov3',
+        Banana: 'ContentImagesRegPage_Banana__3dk9q',
+        Strawberry: 'ContentImagesRegPage_Strawberry__3MQ0-',
+        Green: 'ContentImagesRegPage_Green__1WVsS',
       }
     },
     165: function (e, t, a) {
@@ -165,8 +165,8 @@
     },
     195: function (e, t, a) {
       e.exports = {
-        regBtn: 'styles_regBtn__YdQEE',
-        loginBtn: 'styles_loginBtn__2g-6Y',
+        regBtn: 'styles_regBtn__mA9VH',
+        loginBtn: 'styles_loginBtn__2gNmT',
       }
     },
     255: function (e, t, a) {
@@ -180,15 +180,15 @@
         s = a(21),
         l = a(30),
         u = a(117),
-        d = a(248),
-        b = a(41),
+        b = a(248),
+        d = a(41),
         j = a(47),
         p = a(49),
         g = a(18),
         x = a(142),
         _ = a(195),
-        f = a.n(_),
-        m = a(2),
+        m = a.n(_),
+        f = a(2),
         O = Object(u.a)(function (e) {
           var t, a
           return {
@@ -221,7 +221,7 @@
                 textTransform: 'uppercase',
                 textAlign: 'center',
                 marginTop: '40px',
-                color: b.a[600],
+                color: d.a[600],
               }),
               Object(o.a)(a, e.breakpoints.up('768'), {
                 marginTop: '157px',
@@ -241,7 +241,7 @@
             ),
           }
         }),
-        v = Object(j.a)(function (e) {
+        h = Object(j.a)(function (e) {
           return {
             root: {
               marginBottom: '20px',
@@ -251,17 +251,17 @@
                 e.breakpoints.up('768'),
                 { width: '239px' },
               ),
-              '& label.Mui-focused': { color: b.a[500] },
-              '& .MuiInput-underline:after': { borderBottomColor: b.a[500] },
+              '& label.Mui-focused': { color: d.a[500] },
+              '& .MuiInput-underline:after': { borderBottomColor: d.a[500] },
               '& .MuiOutlinedInput-root': {
-                '& fieldset': { borderColor: b.a[500] },
-                '&:hover fieldset': { borderColor: b.a[500] },
-                '&.Mui-focused fieldset': { borderColor: b.a[500] },
+                '& fieldset': { borderColor: d.a[500] },
+                '&:hover fieldset': { borderColor: d.a[500] },
+                '&.Mui-focused fieldset': { borderColor: d.a[500] },
               },
             },
           }
-        })(d.a)
-      function h() {
+        })(b.a)
+      function v() {
         var e = Object(s.b)(),
           t = O(),
           a = Object(c.useState)(''),
@@ -269,39 +269,39 @@
           r = n[0],
           o = n[1],
           u = Object(c.useState)(''),
-          d = Object(i.a)(u, 2),
-          b = d[0],
-          j = d[1],
+          b = Object(i.a)(u, 2),
+          d = b[0],
+          j = b[1],
           _ = Object(c.useState)(!1),
-          h = Object(i.a)(_, 2),
-          C = h[0],
-          y = h[1]
+          v = Object(i.a)(_, 2),
+          y = v[0],
+          B = v[1]
         Object(c.useEffect)(function () {
-          y(!0)
+          B(!0)
         }, [])
-        return Object(m.jsx)('div', {
+        return Object(f.jsx)('div', {
           style: {
-            transform: C ? 'translateX(0)' : 'translateX(-101%)',
-            opacity: C ? '1' : '0',
+            transform: y ? 'translateX(0)' : 'translateX(-101%)',
+            opacity: y ? '1' : '0',
           },
-          children: Object(m.jsxs)('div', {
+          children: Object(f.jsxs)('div', {
             children: [
-              Object(m.jsx)('h3', {
+              Object(f.jsx)('h3', {
                 className: t.title,
                 children: '\u0432\u0445\u043e\u0434',
               }),
-              Object(m.jsxs)('form', {
+              Object(f.jsxs)('form', {
                 className: t.root,
                 noValidate: !0,
                 autoComplete: 'off',
                 onSubmit: function (t) {
                   t.preventDefault(),
-                    e(Object(p.b)({ email: r, password: b })),
+                    e(Object(p.b)({ email: r, password: d })),
                     o(''),
                     j('')
                 },
                 children: [
-                  Object(m.jsx)(v, {
+                  Object(f.jsx)(h, {
                     required: !0,
                     id: 'standard-email-input',
                     label: 'Email ',
@@ -313,31 +313,31 @@
                       return o(t.value)
                     },
                   }),
-                  Object(m.jsx)(v, {
+                  Object(f.jsx)(h, {
                     required: !0,
                     id: 'standard-password-input',
                     label: '\u041f\u0430\u0440\u043e\u043b\u044c ',
                     type: 'password',
-                    value: b,
+                    value: d,
                     autoComplete: 'current-password',
                     onChange: function (e) {
                       var t = e.target
                       return j(t.value)
                     },
                   }),
-                  Object(m.jsxs)('div', {
+                  Object(f.jsxs)('div', {
                     className: t.button,
                     children: [
-                      Object(m.jsx)(x.a, {
+                      Object(f.jsx)(x.a, {
                         type: 'submit',
-                        id: f.a.loginBtn,
+                        id: m.a.loginBtn,
                         children: '\u0412\u0445\u043e\u0434',
                       }),
-                      Object(m.jsx)(l.b, {
+                      Object(f.jsx)(l.b, {
                         to: g.a.reg,
                         style: { textDecoration: 'none' },
-                        children: Object(m.jsxs)(x.a, {
-                          id: f.a.regBtn,
+                        children: Object(f.jsxs)(x.a, {
+                          id: m.a.regBtn,
                           type: 'button',
                           children: [
                             '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f',
@@ -353,17 +353,17 @@
           }),
         })
       }
-      var C = a(165)
+      var y = a(165)
       t.default = function () {
-        return Object(m.jsxs)('div', {
+        return Object(f.jsxs)('div', {
           children: [
-            Object(m.jsx)(r.a, {}),
-            Object(m.jsx)(n.a, { children: Object(m.jsx)(C.a, {}) }),
-            Object(m.jsx)(n.a, { children: Object(m.jsx)(h, {}) }),
+            Object(f.jsx)(r.a, {}),
+            Object(f.jsx)(n.a, { children: Object(f.jsx)(y.a, {}) }),
+            Object(f.jsx)(n.a, { children: Object(f.jsx)(v, {}) }),
           ],
         })
       }
     },
   },
 ])
-//# sourceMappingURL=8.1a738042.chunk.js.map
+//# sourceMappingURL=8.0cbade40.chunk.js.map

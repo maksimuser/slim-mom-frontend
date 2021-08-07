@@ -4,22 +4,22 @@
   {
     137: function (e, t, a) {
       e.exports = {
-        nav: 'Header_nav__37t1d',
-        logo: 'Header_logo__1V_o-',
-        link: 'Header_link__269xy',
-        active: 'Header_active__3MHke',
-        authLink: 'Header_authLink__2v2Nu',
-        linkActive: 'Header_linkActive__2idf2',
-        userInfo: 'Header_userInfo__wJvAC',
-        userLogin: 'Header_userLogin__22n3f',
-        exitButton: 'Header_exitButton__2v4XM',
-        userInfoNav: 'Header_userInfoNav__V0Q9q',
-        linkBurger: 'Header_linkBurger__3Z5pc',
-        listBurger: 'Header_listBurger__3CEXm',
-        listBurgerItem: 'Header_listBurgerItem__rH0ms',
-        menuButton: 'Header_menuButton__177Te',
-        closeButton: 'Header_closeButton__2YVK3',
-        BigLogo: 'Header_BigLogo__3ApKw',
+        nav: 'Header_nav__3M1Rb',
+        logo: 'Header_logo__2xlgc',
+        link: 'Header_link__aHHl0',
+        active: 'Header_active__1ozZu',
+        authLink: 'Header_authLink__2wpg4',
+        linkActive: 'Header_linkActive__2OzAv',
+        userInfo: 'Header_userInfo__p6LZY',
+        userLogin: 'Header_userLogin__3ObG3',
+        exitButton: 'Header_exitButton__fcLeT',
+        userInfoNav: 'Header_userInfoNav__3SgC9',
+        linkBurger: 'Header_linkBurger__2DgGQ',
+        listBurger: 'Header_listBurger__h3jAf',
+        listBurgerItem: 'Header_listBurgerItem__3SzXQ',
+        menuButton: 'Header_menuButton__3ukyz',
+        closeButton: 'Header_closeButton__3jdCb',
+        BigLogo: 'Header_BigLogo__ky-5x',
       }
     },
     142: function (e, t, a) {
@@ -60,11 +60,11 @@
     },
     160: function (e, t, a) {
       e.exports = {
-        contentContainer: 'ContentImagesRegPage_contentContainer__1SNM4',
-        DecoreLaptop: 'ContentImagesRegPage_DecoreLaptop__3T5-O',
-        Banana: 'ContentImagesRegPage_Banana__3Aqk6',
-        Strawberry: 'ContentImagesRegPage_Strawberry__1E3gS',
-        Green: 'ContentImagesRegPage_Green__Cjzf7',
+        contentContainer: 'ContentImagesRegPage_contentContainer__QnH3O',
+        DecoreLaptop: 'ContentImagesRegPage_DecoreLaptop__53ov3',
+        Banana: 'ContentImagesRegPage_Banana__3dk9q',
+        Strawberry: 'ContentImagesRegPage_Strawberry__3MQ0-',
+        Green: 'ContentImagesRegPage_Green__1WVsS',
       }
     },
     165: function (e, t, a) {
@@ -164,7 +164,7 @@
       }
     },
     225: function (e, t, a) {
-      e.exports = { linkBtn: 'styles_linkBtn__1ypIK' }
+      e.exports = { linkBtn: 'styles_linkBtn__3gh0X' }
     },
     256: function (e, t, a) {
       'use strict'
@@ -177,15 +177,15 @@
         s = a(21),
         l = a(30),
         u = a(117),
-        d = a(248),
-        b = a(41),
+        b = a(248),
+        d = a(41),
         j = a(47),
         p = a(49),
-        m = a(18),
-        x = a(142),
-        f = a(225),
-        _ = a.n(f),
-        g = a(2),
+        x = a(18),
+        g = a(142),
+        m = a(225),
+        f = a.n(m),
+        _ = a(2),
         O = Object(u.a)(function (e) {
           var t, a
           return {
@@ -217,7 +217,7 @@
                 textTransform: 'uppercase',
                 textAlign: 'center',
                 marginTop: '40px',
-                color: b.a[600],
+                color: d.a[600],
               }),
               Object(o.a)(a, e.breakpoints.up('768'), {
                 marginTop: '157px',
@@ -237,7 +237,7 @@
             ),
           }
         }),
-        v = Object(j.a)(function (e) {
+        h = Object(j.a)(function (e) {
           return {
             root: {
               marginBottom: '20px',
@@ -247,17 +247,17 @@
                 e.breakpoints.up('768'),
                 { width: '239px' },
               ),
-              '& label.Mui-focused': { color: b.a[500] },
-              '& .MuiInput-underline:after': { borderBottomColor: b.a[500] },
+              '& label.Mui-focused': { color: d.a[500] },
+              '& .MuiInput-underline:after': { borderBottomColor: d.a[500] },
               '& .MuiOutlinedInput-root': {
-                '& fieldset': { borderColor: b.a[500] },
-                '&:hover fieldset': { borderColor: b.a[500] },
-                '&.Mui-focused fieldset': { borderColor: b.a[500] },
+                '& fieldset': { borderColor: d.a[500] },
+                '&:hover fieldset': { borderColor: d.a[500] },
+                '&.Mui-focused fieldset': { borderColor: d.a[500] },
               },
             },
           }
-        })(d.a)
-      function h() {
+        })(b.a)
+      function v() {
         var e = Object(s.b)(),
           t = O(),
           a = Object(c.useState)(''),
@@ -265,13 +265,13 @@
           r = n[0],
           o = n[1],
           u = Object(c.useState)(''),
-          d = Object(i.a)(u, 2),
-          b = d[0],
-          j = d[1],
-          f = Object(c.useState)(''),
-          h = Object(i.a)(f, 2),
-          C = h[0],
-          k = h[1],
+          b = Object(i.a)(u, 2),
+          d = b[0],
+          j = b[1],
+          m = Object(c.useState)(''),
+          v = Object(i.a)(m, 2),
+          k = v[0],
+          C = v[1],
           y = Object(c.useState)(!1),
           w = Object(i.a)(y, 2),
           B = w[0],
@@ -279,35 +279,35 @@
         Object(c.useEffect)(function () {
           H(!0)
         }, [])
-        return Object(g.jsx)('div', {
+        return Object(_.jsx)('div', {
           style: {
             transform: B ? 'translateX(0)' : 'translateX(-101%)',
             opacity: B ? '1' : '0',
           },
-          children: Object(g.jsxs)('div', {
+          children: Object(_.jsxs)('div', {
             children: [
-              Object(g.jsx)('h3', {
+              Object(_.jsx)('h3', {
                 className: t.title,
                 children:
                   '\u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f',
               }),
-              Object(g.jsxs)('form', {
+              Object(_.jsxs)('form', {
                 className: t.root,
                 noValidate: !0,
                 autoComplete: 'off',
                 onSubmit: function (t) {
                   t.preventDefault(),
-                    e(Object(p.d)({ name: b, email: r, password: C })),
+                    e(Object(p.d)({ name: d, email: r, password: k })),
                     j(''),
                     o(''),
-                    k('')
+                    C('')
                 },
                 children: [
-                  Object(g.jsx)(v, {
+                  Object(_.jsx)(h, {
                     required: !0,
                     id: 'standard-name-input',
                     label: '\u0418\u043c\u044f',
-                    value: b,
+                    value: d,
                     type: 'Name',
                     autoComplete: 'current-name',
                     onChange: function (e) {
@@ -315,7 +315,7 @@
                       return j(t.value)
                     },
                   }),
-                  Object(g.jsx)(v, {
+                  Object(_.jsx)(h, {
                     required: !0,
                     id: 'standard-email-input',
                     label: 'Email',
@@ -327,31 +327,31 @@
                       return o(t.value)
                     },
                   }),
-                  Object(g.jsx)(v, {
+                  Object(_.jsx)(h, {
                     required: !0,
                     id: 'standard-password-input',
                     label: '\u041f\u0430\u0440\u043e\u043b\u044c',
-                    value: C,
+                    value: k,
                     type: 'password',
                     autoComplete: 'current-password',
                     onChange: function (e) {
                       var t = e.target
-                      return k(t.value)
+                      return C(t.value)
                     },
                   }),
-                  Object(g.jsxs)('div', {
+                  Object(_.jsxs)('div', {
                     className: t.button,
                     children: [
-                      Object(g.jsx)(l.b, {
-                        to: m.a.auth,
+                      Object(_.jsx)(l.b, {
+                        to: x.a.auth,
                         style: { textDecoration: 'none' },
-                        children: Object(g.jsx)(x.a, {
-                          id: _.a.linkBtn,
+                        children: Object(_.jsx)(g.a, {
+                          id: f.a.linkBtn,
                           type: 'button',
                           children: '\u0412\u0445\u043e\u0434',
                         }),
                       }),
-                      Object(g.jsx)(x.a, {
+                      Object(_.jsx)(g.a, {
                         type: 'submit',
                         children:
                           '\u0420\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f',
@@ -364,17 +364,17 @@
           }),
         })
       }
-      var C = a(165)
+      var k = a(165)
       t.default = function () {
-        return Object(g.jsxs)(g.Fragment, {
+        return Object(_.jsxs)(_.Fragment, {
           children: [
-            Object(g.jsx)(r.a, {}),
-            Object(g.jsx)(n.a, { children: Object(g.jsx)(C.a, {}) }),
-            Object(g.jsx)(n.a, { children: Object(g.jsx)(h, {}) }),
+            Object(_.jsx)(r.a, {}),
+            Object(_.jsx)(n.a, { children: Object(_.jsx)(k.a, {}) }),
+            Object(_.jsx)(n.a, { children: Object(_.jsx)(v, {}) }),
           ],
         })
       }
     },
   },
 ])
-//# sourceMappingURL=9.e02ec980.chunk.js.map
+//# sourceMappingURL=9.c25d3761.chunk.js.map

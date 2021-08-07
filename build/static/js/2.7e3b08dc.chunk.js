@@ -4,22 +4,22 @@
   {
     137: function (e, t, a) {
       e.exports = {
-        nav: 'Header_nav__37t1d',
-        logo: 'Header_logo__1V_o-',
-        link: 'Header_link__269xy',
-        active: 'Header_active__3MHke',
-        authLink: 'Header_authLink__2v2Nu',
-        linkActive: 'Header_linkActive__2idf2',
-        userInfo: 'Header_userInfo__wJvAC',
-        userLogin: 'Header_userLogin__22n3f',
-        exitButton: 'Header_exitButton__2v4XM',
-        userInfoNav: 'Header_userInfoNav__V0Q9q',
-        linkBurger: 'Header_linkBurger__3Z5pc',
-        listBurger: 'Header_listBurger__3CEXm',
-        listBurgerItem: 'Header_listBurgerItem__rH0ms',
-        menuButton: 'Header_menuButton__177Te',
-        closeButton: 'Header_closeButton__2YVK3',
-        BigLogo: 'Header_BigLogo__3ApKw',
+        nav: 'Header_nav__3M1Rb',
+        logo: 'Header_logo__2xlgc',
+        link: 'Header_link__aHHl0',
+        active: 'Header_active__1ozZu',
+        authLink: 'Header_authLink__2wpg4',
+        linkActive: 'Header_linkActive__2OzAv',
+        userInfo: 'Header_userInfo__p6LZY',
+        userLogin: 'Header_userLogin__3ObG3',
+        exitButton: 'Header_exitButton__fcLeT',
+        userInfoNav: 'Header_userInfoNav__3SgC9',
+        linkBurger: 'Header_linkBurger__2DgGQ',
+        listBurger: 'Header_listBurger__h3jAf',
+        listBurgerItem: 'Header_listBurgerItem__3SzXQ',
+        menuButton: 'Header_menuButton__3ukyz',
+        closeButton: 'Header_closeButton__3jdCb',
+        BigLogo: 'Header_BigLogo__ky-5x',
       }
     },
     139: function (e, t, a) {
@@ -548,8 +548,8 @@
     },
     172: function (e, t, a) {
       e.exports = {
-        Overlay: 'BurgerMenu_Overlay__qZr6j',
-        Modal: 'BurgerMenu_Modal__3yTSX',
+        Overlay: 'BurgerMenu_Overlay__f37VX',
+        Modal: 'BurgerMenu_Modal__2aFT8',
       }
     },
     187: function (e, t, a) {
@@ -640,68 +640,68 @@
         B = a(208),
         w = a.n(B),
         S = a(210),
-        H = a.n(S),
-        I = a(53),
-        M = function (e) {
+        L = a.n(S),
+        H = a(53),
+        I = function (e) {
           return e.kcal.loading
         },
-        L = function (e) {
+        M = function (e) {
           return e.kcal.calcData.kcal
         },
         F = function (e) {
           return e.kcal.calcData.productsNotRecommended
         },
-        E = a(28),
-        q = a(18),
-        z = a(198),
-        A = a.n(z),
-        V = a(199),
-        P = function (e) {
+        z = a(28),
+        E = a(18),
+        A = a(198),
+        q = a.n(A),
+        P = a(199),
+        D = function (e) {
           var t = e.open,
             a = e.onClose,
-            n = Object(o.c)(M),
-            r = Object(o.c)(L),
+            n = Object(o.c)(I),
+            r = Object(o.c)(M),
             c = Object(o.c)(F),
-            s = Object(o.c)(E.a),
+            s = Object(o.c)(z.a),
             i = Object(p.jsxs)('div', {
-              className: A.a.modalContainer,
+              className: q.a.modalContainer,
               children: [
                 Object(p.jsx)('button', {
-                  className: A.a.modalContainer_closeBtn,
+                  className: q.a.modalContainer_closeBtn,
                   type: 'button',
                   onClick: a,
                   children: Object(p.jsx)(w.a, {}),
                 }),
                 Object(p.jsx)('button', {
-                  className: A.a.modalContainer_backBtn,
+                  className: q.a.modalContainer_backBtn,
                   type: 'button',
                   onClick: a,
-                  children: Object(p.jsx)(H.a, {
+                  children: Object(p.jsx)(L.a, {
                     style: { fontSize: 'inherit', marginLeft: 15 },
                   }),
                 }),
                 Object(p.jsx)('h3', {
-                  className: A.a.modalContainer_title,
+                  className: q.a.modalContainer_title,
                   children:
                     ' \u0412\u0430\u0448\u0430 \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u043c\u0430\u044f \u0441\u0443\u0442\u043e\u0447\u043d\u0430\u044f \u043d\u043e\u0440\u043c\u0430 \u043a\u0430\u043b\u043e\u0440\u0438\u0439 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 ',
                 }),
                 Object(p.jsxs)('div', {
-                  className: A.a.modalContainer_info,
+                  className: q.a.modalContainer_info,
                   children: [
                     Object(p.jsxs)('p', {
-                      className: A.a.modalContainer_amount,
+                      className: q.a.modalContainer_amount,
                       children: [
                         r,
                         ' ',
                         Object(p.jsx)('span', {
-                          className: A.a.modalContainer_amount_word,
+                          className: q.a.modalContainer_amount_word,
                           children: '\u043a\u043a\u0430\u043b',
                         }),
                         ' ',
                       ],
                     }),
                     Object(p.jsxs)('h4', {
-                      className: A.a.modalList_title,
+                      className: q.a.modalList_title,
                       children: [
                         '\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0432\u0430\u043c ',
                         Object(p.jsx)('br', {}),
@@ -709,28 +709,28 @@
                       ],
                     }),
                     Object(p.jsx)('ol', {
-                      className: A.a.modalList,
+                      className: q.a.modalList,
                       children:
                         c &&
                         c.map(function (e) {
                           return Object(p.jsx)(
                             'li',
                             { children: e },
-                            Object(V.generate)(),
+                            Object(P.generate)(),
                           )
                         }),
                     }),
                   ],
                 }),
                 Object(p.jsx)(y.b, {
-                  to: s ? q.a.diary : q.a.reg,
+                  to: s ? E.a.diary : E.a.reg,
                   style: { textDecoration: 'none' },
                   children: Object(p.jsxs)(k.a, {
                     type: 'button',
                     children: [
                       '\u041d\u0430\u0447\u0430\u0442\u044c \xa0 ',
                       Object(p.jsx)('span', {
-                        className: A.a.btn_word,
+                        className: q.a.btn_word,
                         children: '\u0445\u0443\u0434\u0435\u0442\u044c',
                       }),
                     ],
@@ -740,7 +740,7 @@
             })
           return Object(p.jsx)('div', {
             children: n
-              ? Object(p.jsx)(I.a, {})
+              ? Object(p.jsx)(H.a, {})
               : Object(p.jsx)(N.a, {
                   onClose: a,
                   'aria-labelledby': 'modal-title',
@@ -750,8 +750,8 @@
                 }),
           })
         },
-        D = a(141),
-        R = a(139),
+        R = a(141),
+        V = a(139),
         W = Object(l.a)(function (e) {
           var t
           return {
@@ -803,19 +803,19 @@
           B = N[0],
           w = N[1],
           S = Object(c.useState)('1'),
-          H = Object(n.a)(S, 2),
-          I = H[0],
-          M = H[1],
-          L = Object(c.useState)(!1),
-          F = Object(n.a)(L, 2),
-          E = F[0],
-          q = F[1],
-          z = Object(o.b)()
+          L = Object(n.a)(S, 2),
+          H = L[0],
+          I = L[1],
+          M = Object(c.useState)(!1),
+          F = Object(n.a)(M, 2),
+          z = F[0],
+          E = F[1],
+          A = Object(o.b)()
         Object(c.useEffect)(function () {
           r(!0)
         }, [])
-        var A = Object(o.c)(R.b),
-          V = function (e) {
+        var q = Object(o.c)(V.b),
+          P = function (e) {
             var t = e.target,
               a = t.name,
               n = t.value,
@@ -834,11 +834,11 @@
                 w(n)
                 break
               case 'groupBlood':
-                M(r)
+                I(r)
             }
           },
           X = function () {
-            u(''), O(''), v(''), w(''), M('')
+            u(''), O(''), v(''), w(''), I('')
           }
         return Object(p.jsxs)(p.Fragment, {
           children: [
@@ -867,14 +867,14 @@
                         age: f,
                         weight: x,
                         desiredWeight: B,
-                        groupBlood: I,
+                        groupBlood: H,
                       },
                       a = localStorage.getItem('token')
                     a
-                      ? (z(Object(b.b)(t, a)), z(Object(D.b)(A)))
-                      : (z(Object(b.a)(t)), q(!0)),
-                      z(Object(b.a)(t)),
-                      q(!0),
+                      ? (A(Object(b.b)(t, a)), A(Object(R.b)(q)))
+                      : (A(Object(b.a)(t)), E(!0)),
+                      A(Object(b.a)(t)),
+                      E(!0),
                       X()
                   }
                 else
@@ -914,7 +914,7 @@
                             '\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043b\u043e \u043e\u0442 130 \u0434\u043e 220',
                           value: l,
                           type: 'text',
-                          onChange: V,
+                          onChange: P,
                         }),
                         Object(p.jsx)(W, {
                           id: 'standard-basic',
@@ -926,7 +926,7 @@
                             '\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043b\u043e \u043e\u0442 18 \u0434\u043e 99',
                           value: f,
                           type: 'text',
-                          onChange: V,
+                          onChange: P,
                         }),
                         Object(p.jsx)(W, {
                           id: 'standard-basic',
@@ -939,7 +939,7 @@
                             '\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043b\u043e \u043e\u0442 50 \u0434\u043e 200',
                           value: x,
                           type: 'text',
-                          onChange: V,
+                          onChange: P,
                         }),
                       ],
                     }),
@@ -957,9 +957,9 @@
                             '\u0432\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043b\u043e \u043e\u0442 45 \u0434\u043e 100',
                           value: B,
                           type: 'text',
-                          onChange: V,
+                          onChange: P,
                         }),
-                        Object(p.jsx)(g, { onChange: V }),
+                        Object(p.jsx)(g, { onChange: P }),
                       ],
                     }),
                   ],
@@ -975,10 +975,10 @@
                 }),
               ],
             }),
-            Object(p.jsx)(P, {
-              open: E,
+            Object(p.jsx)(D, {
+              open: z,
               onClose: function () {
-                q(!1)
+                E(!1)
               },
             }),
           ],
@@ -987,26 +987,26 @@
     },
     197: function (e, t, a) {
       e.exports = {
-        form: 'CalcForm_form__To8O3',
-        title: 'CalcForm_title__2nRzP',
-        formContainer: 'CalcForm_formContainer__7Vc44',
-        btn: 'CalcForm_btn__3392V',
+        form: 'CalcForm_form__146co',
+        title: 'CalcForm_title__22uda',
+        formContainer: 'CalcForm_formContainer__2iGbg',
+        btn: 'CalcForm_btn__2a-ud',
       }
     },
     198: function (e, t, a) {
       e.exports = {
-        modalContainer: 'styles_modalContainer__1rotf',
-        modalContainer_closeBtn: 'styles_modalContainer_closeBtn__1DIz7',
-        modalContainer_backBtn: 'styles_modalContainer_backBtn__3_F3e',
-        modalContainer_title: 'styles_modalContainer_title__1JxRi',
-        modalContainer_info: 'styles_modalContainer_info__oiED_',
-        modalContainer_amount: 'styles_modalContainer_amount__31Qkk',
-        modalContainer_amount_word: 'styles_modalContainer_amount_word__1YJZ7',
-        modalList: 'styles_modalList__2VrRH',
-        modalList_title: 'styles_modalList_title__2O69j',
-        btn_word: 'styles_btn_word__2-iNH',
+        modalContainer: 'styles_modalContainer__1PS2E',
+        modalContainer_closeBtn: 'styles_modalContainer_closeBtn__feZL1',
+        modalContainer_backBtn: 'styles_modalContainer_backBtn__1vGAx',
+        modalContainer_title: 'styles_modalContainer_title__ClxYN',
+        modalContainer_info: 'styles_modalContainer_info__24QrX',
+        modalContainer_amount: 'styles_modalContainer_amount__OmvCg',
+        modalContainer_amount_word: 'styles_modalContainer_amount_word__1tbFq',
+        modalList: 'styles_modalList__1rOwu',
+        modalList_title: 'styles_modalList_title__3kFyy',
+        btn_word: 'styles_btn_word__2NJLL',
       }
     },
   },
 ])
-//# sourceMappingURL=2.28879a1c.chunk.js.map
+//# sourceMappingURL=2.7e3b08dc.chunk.js.map

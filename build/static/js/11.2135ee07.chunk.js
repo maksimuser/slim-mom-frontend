@@ -4,11 +4,10 @@
   {
     224: function (e, t, a) {
       e.exports = {
-        contentContainer: 'ContentImagesHomePage_contentContainer__36ZpC',
-        DecoreLaptop: 'ContentImagesHomePage_DecoreLaptop__3S_ku',
-        Banana: 'ContentImagesHomePage_Banana__18RWo',
-        Strawberry: 'ContentImagesHomePage_Strawberry__3T0uO',
-        Green: 'ContentImagesHomePage_Green__4wPWy',
+        contentContainer: 'ContentImagesHomePage_contentContainer__iJ12q',
+        DecoreLaptop: 'ContentImagesHomePage_DecoreLaptop__2aWMq',
+        Banana: 'ContentImagesHomePage_Banana__97Ngo',
+        Strawberry: 'ContentImagesHomePage_Strawberry__2O2L_',
       }
     },
     254: function (e, t, a) {
@@ -75,4 +74,4 @@
     },
   },
 ])
-//# sourceMappingURL=11.3320bca9.chunk.js.map
+//# sourceMappingURL=11.2135ee07.chunk.js.map

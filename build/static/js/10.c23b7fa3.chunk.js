@@ -3,17 +3,17 @@
   [10],
   {
     168: function (e, s, t) {
-      e.exports = { list: 's_list__tvsZJ', ul: 's_ul__1ENI9' }
+      e.exports = { list: 's_list__3n1gn', ul: 's_ul__154Ra' }
     },
     169: function (e, s, t) {
       e.exports = {
-        section: 'RightSideBar_section__1pBMK',
-        container: 'RightSideBar_container__38oUL',
-        box: 'RightSideBar_box__37LsA',
-        title: 'RightSideBar_title__3oG-v',
-        list: 'RightSideBar_list__2vJnC',
-        ul: 'RightSideBar_ul__3OVm-',
-        text: 'RightSideBar_text__3M2sP',
+        section: 'RightSideBar_section__2sVRH',
+        container: 'RightSideBar_container__1dBgO',
+        box: 'RightSideBar_box__2Zr8N',
+        title: 'RightSideBar_title__JtpEJ',
+        list: 'RightSideBar_list__1Tvx9',
+        ul: 'RightSideBar_ul__1eoei',
+        text: 'RightSideBar_text__2Sawo',
       }
     },
     174: function (e, s, t) {
@@ -207,11 +207,11 @@
     },
     215: function (e, s, t) {
       e.exports = {
-        wrapper: 'styless_wrapper__2IVwI',
-        section: 'styless_section__36hxc',
-        box: 'styless_box__2Az09',
-        header: 'styless_header__2D9_0',
-        headerBox: 'styless_headerBox__9fi3E',
+        wrapper: 'styless_wrapper__29yNo',
+        section: 'styless_section__SriZz',
+        box: 'styless_box__3j30C',
+        header: 'styless_header__1vFlm',
+        headerBox: 'styless_headerBox__3RHTo',
       }
     },
     253: function (e, s, t) {
@@ -282,4 +282,4 @@
     },
   },
 ])
-//# sourceMappingURL=10.61096b41.chunk.js.map
+//# sourceMappingURL=10.c23b7fa3.chunk.js.map
