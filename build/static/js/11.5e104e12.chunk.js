@@ -8,6 +8,7 @@
         DecoreLaptop: 'ContentImagesHomePage_DecoreLaptop__2aWMq',
         Banana: 'ContentImagesHomePage_Banana__97Ngo',
         Strawberry: 'ContentImagesHomePage_Strawberry__2O2L_',
+        Green: 'ContentImagesHomePage_Green__2Oh8L',
       }
     },
     254: function (e, t, a) {
@@ -74,4 +75,4 @@
     },
   },
 ])
-//# sourceMappingURL=11.2135ee07.chunk.js.map
+//# sourceMappingURL=11.5e104e12.chunk.js.map
